@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+body {
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-optical-sizing: auto;
+}
+
+@layer utilities {
+  .heading-lg-500 {
+    font-weight: 500;
+    font-size: clamp(2rem, 1.4rem + 1.3333vw, 3rem);
+    line-height: 2.5rem;
+  }
+  .heading-md-500 {
+    font-weight: 500;
+    font-size: clamp(1.5rem, 1.2rem + 0.6667vw, 2rem);
+    line-height: 1.5rem;
+  }
+  .heading-md-400 {
+    font-weight: 400;
+    font-size: clamp(1.5rem, 1.2rem + 0.6667vw, 2rem);
+    line-height: 1.5rem;
+  }
+  .heading-sm-500 {
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.25rem;
+  }
+  .heading-sm-400 {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.25rem;
+  }
+
+  .heading-xs-400 {
+    font-weight: 400;
+    font-size: 0.75rem;
+    line-height: 1.25rem;
+  }
+
+  .text-body {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+  .block-gap {
+    @apply mb-12;
+  }
+}
+
+* {
+  @apply transition-all duration-300;
+}
+
+img {
+  @apply object-cover max-w-full h-auto;
+}
