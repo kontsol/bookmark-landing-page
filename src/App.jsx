@@ -4,7 +4,7 @@ import Header from "./components/Header";
 
 function App() {
   return (
-    <section className="container mx-auto ">
+    <section className="mx-auto container">
       <Header />
     </section>
   );

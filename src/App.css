@@ -47,10 +47,14 @@ body {
   .block-gap {
     @apply mb-12;
   }
+  .paddingY {
+  }
+  .paddingX {
+  }
 }
 
 * {
-  @apply transition-all duration-300;
+  @apply transition-all duration-300 ease-in-out;
 }
 
 img {
