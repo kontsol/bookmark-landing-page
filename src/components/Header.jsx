@@ -25,7 +25,7 @@ const Header = () => {
   }, []);
 
   return (
-    <header className="px-4 sm:px-0 pt-10 flex items-center justify-between w-full relative z-100">
+    <header className="paddingX pt-10 flexBetween w-full relative z-100">
       <img src={logo} alt="header logo" className="cursor-pointer" />
       <div className="hidden md:flex items-center md:gap-8 xl:gap-15">
         <ul className="flex gap-8 md:gap-8 xl:gap-15">
@@ -41,7 +41,7 @@ const Header = () => {
         <Button variant="danger" text="LOGIN" />
       </div>
       <img
-        src={isOpen ? close : menu}
+        src={menu}
         className="block md:hidden w-6 h-6 cursor-pointer "
         alt="menu button"
         onClick={handleMenuToggle}
@@ -49,9 +49,15 @@ const Header = () => {
 
       {/* Mobile menu */}
       {isOpen ? (
-        <div className="fixed top-0 left-0 right-0 w-full h-screen -z-1 bg-[#252b46]/90 ">
+        <div className="fixed top-0 left-0 right-0 w-full h-screen -z-1 bg-[#252b46]/97 ">
+          <img
+            src={close}
+            className="fixed top-10 right-10 w-6 h-6 z-[999] cursor-pointer"
+            alt="close menu"
+            onClick={handleMenuToggle}
+          />
           <div className="absolute top-1/5 w-full px-10">
-            <ul className="  flex flex-col justify-center items-center w-full">
+            <ul className="  flexCenter flex-col w-full">
               {HEADER.map((item, index) => (
                 <li
                   className={`w-full py-8 text-center  heading-md-400 ${item.class} text-white hover:text-[#ff4c4c]`}
@@ -64,7 +70,7 @@ const Header = () => {
             <Button variant="menu" text="LOGIN" />
           </div>
 
-          <div className="flex justify-center gap-10 absolute bottom-1/6 left-0 right-0">
+          <div className="flexCenter gap-10 absolute bottom-1/6 left-0 right-0">
             {SOCIALS.map((item, index) => (
               <img
                 src={item.icon}
