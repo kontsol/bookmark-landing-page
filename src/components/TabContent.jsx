@@ -20,10 +20,7 @@ const Hero = ({ title, text, image }) => {
         <p className="text-body text-[#252b46] max-w-xs sm:max-w-md w-full ">
           {text}
         </p>
-        <div className="flex gap-4">
-          <Button variant="primary" text="Get it on Chrome" />
-          <Button variant="white" text="Get it on Firefox" />
-        </div>
+        <Button variant="primary" text="More Info" />
       </div>
     </div>
   );

@@ -6,7 +6,7 @@ const Button = ({ variant, text }) => {
 
   const variantStyles = {
     primary:
-      "heading-sm-500 bg-[#5368df] hover:bg-[#f7f7f7] text-[#f7f7f7] hover:text-[#5368df] hover:border-[#5368df]",
+      "heading-sm-500 bg-[#5368df] hover:bg-[#f7f7f7] text-[#f7f7f7] hover:text-[#5368df] hover:border-[#5368df] ",
     danger:
       "bg-[#fa5757] hover:bg-[#f7f7f7] text-white hover:text-[#fa5757] hover:border-[#fa5757] heading-sm-400 ",
     white: "heading-sm-500 bg-[#f7f7f7] text-[#252b46] hover:border-[#252b46]",
