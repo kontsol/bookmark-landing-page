@@ -43,11 +43,16 @@ body {
     font-weight: 400;
     font-size: 1rem;
     line-height: 1.5rem;
+    color: #b7b7b7;
   }
   .block-gap {
-    @apply my-20;
+    @apply my-25;
+  }
+  .content-gap {
+    @apply gap-6;
   }
   .paddingY {
+    @apply py-8;
   }
   .paddingX {
     @apply px-4 sm:px-0;

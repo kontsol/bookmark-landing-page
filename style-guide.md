@@ -20,6 +20,7 @@ The designs were created to the following widths:
 
 - Grey 50: #f7f7f7
 - Blue 950: #252b46
+- Grey: #b7b7b7;
 
 ## Typography
 
