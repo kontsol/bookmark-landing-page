@@ -9,10 +9,10 @@ const Features = () => {
     setActiveTab(index);
   };
   return (
-    <div className="block-gap">
+    <div className="block-gap paddingY">
       <div className="flex flex-col items-center content-gap">
         <h1 className="heading-md-500">Features</h1>
-        <p className="text-body max-w-[500px] w-full text-center">
+        <p className="text-body textMaxWidth text-center">
           Our aim is to make it quick and easy for you to access your favourite
           websites. Your bookmarks sync between your devices so you can access
           them on the go.
@@ -20,7 +20,7 @@ const Features = () => {
       </div>
 
       {/* Tabs */}
-      <div className="px-15 md:px-0 flex flex-col md:flex-row justify-center mx-auto paddingY max-w-[600px]">
+      <div className="px-15 md:px-0 flex flex-col md:flex-row justify-center mx-auto max-w-[600px]">
         {TAB_DATA.map((item, index) => {
           return (
             <button

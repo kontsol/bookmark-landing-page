@@ -37,6 +37,7 @@ body {
     font-weight: 400;
     font-size: 0.75rem;
     line-height: 1.25rem;
+    color: #b7b7b7;
   }
 
   .text-body {
@@ -46,7 +47,7 @@ body {
     color: #b7b7b7;
   }
   .block-gap {
-    @apply my-25;
+    @apply !my-25;
   }
   .content-gap {
     @apply gap-6;
@@ -66,6 +67,9 @@ body {
   }
   .flexStart {
     @apply flex justify-start items-start;
+  }
+  .textMaxWidth {
+    @apply max-w-[500px] w-full;
   }
 }
 

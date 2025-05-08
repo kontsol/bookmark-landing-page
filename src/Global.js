@@ -3,6 +3,9 @@ import twitter from "./assets/images/icon-twitter.svg";
 import tab1_image from "./assets/images/illustration-features-tab-1.svg";
 import tab2_image from "./assets/images/illustration-features-tab-2.svg";
 import tab3_image from "./assets/images/illustration-features-tab-3.svg";
+import chrome from "./assets/images/logo-chrome.svg";
+import firefox from "./assets/images/logo-firefox.svg";
+import opera from "./assets/images/logo-opera.svg";
 
 const HEADER = [
   {
@@ -47,4 +50,25 @@ const TAB_DATA = [
     image: tab3_image,
   },
 ];
-export { HEADER, SOCIALS, TAB_DATA };
+
+const EXTENSION_DATA = [
+  {
+    title: "Add to Chrome",
+    text: "Minimum version 62",
+    image: chrome,
+    alt: "chrome icon",
+  },
+  {
+    title: "Add to Firefox",
+    text: "Minimum version 55",
+    image: firefox,
+    alt: "firefox icon",
+  },
+  {
+    title: "Add to Opera",
+    text: "Minimum version 12",
+    image: opera,
+    alt: "opera icon",
+  },
+];
+export { HEADER, SOCIALS, TAB_DATA, EXTENSION_DATA };

@@ -9,7 +9,7 @@ const Hero = () => {
         <h1 className="heading-lg-500 max-w-xl w-full ">
           A Simple Bookmark Manager
         </h1>
-        <p className="text-body text-[#252b46] max-w-xs sm:max-w-md w-full ">
+        <p className="text-body text-[#252b46] textMaxWidth">
           A clean and simple interface to organize your favourite websites. Open
           a new browser tab and see your sites load instantly. Try it for free.
         </p>
@@ -20,10 +20,10 @@ const Hero = () => {
       </div>
       <div className="flex-1 relative">
         <div
-          className="absolute top-[15%] -right-[30%] w-full h-full bg-blue-600 rounded-tl-[100px] rounded-bl-[100px] rounded-tr-0 rounded-br-0 z-[-1]"
+          className="absolute top-[15%] -right-[25%] w-full h-full bg-blue-600 rounded-tl-[100px] rounded-bl-[100px] rounded-tr-0 rounded-br-0 z-[-1]"
           aria-hidden="true"
         ></div>
-        <img src={heroImage} alt="hero image" className="" />
+        <img src={heroImage} alt="hero image" />
       </div>
     </div>
   );
