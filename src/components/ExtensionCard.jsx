@@ -19,6 +19,5 @@ const ExtensionCard = ({ title, text, image, index, alt }) => {
     </div>
   );
 };
-// border create with content after
 
 export default ExtensionCard;

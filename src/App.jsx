@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Features from "./components/Features";
 import Extension from "./components/Extension";
+import FAQ from "./components/FAQ";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Hero />
       <Features />
       <Extension />
+      <FAQ />
     </section>
   );
 }
