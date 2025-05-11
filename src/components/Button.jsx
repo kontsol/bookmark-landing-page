@@ -10,7 +10,7 @@ const Button = ({ variant, text }) => {
     danger:
       "bg-[#fa5757] hover:bg-[#f7f7f7] text-white hover:text-[#fa5757] hover:border-[#fa5757] heading-sm-400 ",
     white: "heading-sm-500 bg-[#f7f7f7] text-[#252b46] hover:border-[#252b46]",
-    menu: "bg-transparent hover:bg-[#f7f7f7] w-full text-white hover:text-[#fa5757] border-white text-center py-4 heading-md-500 mt-10 hover:border-[#fa5757] ",
+    menu: "bg-transparent hover:bg-[#f7f7f7] w-full text-white hover:text-[#fa5757] border-white text-center py-4 heading-sm-500 mt-10 hover:border-[#fa5757] ",
   };
   return (
     <div className={`${variantStyles[variant]} ${baseStyles}`}>{text}</div>

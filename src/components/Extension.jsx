@@ -5,7 +5,7 @@ import ExtensionCard from "./ExtensionCard";
 
 const Extension = () => {
   return (
-    <div className="block-gap paddingY ">
+    <div className="extension block-gap paddingY section-wrapper">
       <div className="text-center flex flex-col items-center content-gap">
         <h1 className="heading-md-500">Download the extension</h1>
         <p className="text-body textMaxWidth">

@@ -4,7 +4,7 @@ import Button from "./Button";
 
 const Hero = () => {
   return (
-    <div className="flex flex-col-reverse md:flex-row gap-30 md:gap-10 paddingX block-gap">
+    <div className="hero flex flex-col-reverse md:flex-row gap-30 md:gap-10 paddingX block-gap section-wrapper">
       <div className="flex-1 flexCenter flex-col md:!items-start text-center md:text-left content-gap">
         <h1 className="heading-lg-500 max-w-xl w-full ">
           A Simple Bookmark Manager

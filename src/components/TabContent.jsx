@@ -3,7 +3,7 @@ import Button from "./Button";
 
 const TabContent = ({ title, text, image }) => {
   return (
-    <div className="flex flex-col md:flex-row gap-30 md:gap-10 paddingX block-gap">
+    <div className="tab-content flex flex-col md:flex-row gap-30 md:gap-10 paddingX block-gap">
       <div className="flex-1 relative">
         <div
           className="absolute top-[15%] -left-[30%] w-full h-full bg-blue-600 rounded-tr-[100px] rounded-br-[100px] rounded-tl-0 rounded-bl-0 z-[-1]"

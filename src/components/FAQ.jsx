@@ -11,7 +11,7 @@ const FAQ = () => {
   };
 
   return (
-    <div className="block-gap paddingY">
+    <div className="faq block-gap paddingY section-wrapper">
       <div className="flex flex-col items-center content-gap">
         <h1 className="heading-md-500">Frequently Asked Questions</h1>
         <p className="textMaxWidth text-body text-center">

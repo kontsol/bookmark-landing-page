@@ -4,7 +4,7 @@ import Button from "./Button";
 const ExtensionCard = ({ title, text, image, index, alt }) => {
   return (
     <div
-      className={`h-full rounded-lg shadow-xl/40  hover:shadow-2xl hover:shadow-[#fa5757] shadow-[#5368df] max-w-md w-full md:w-[19rem] mx-auto md:mx-0 hover:translate-y-[-5px] ${
+      className={`extension-card h-full rounded-lg shadow-xl/40  hover:shadow-2xl hover:shadow-[#fa5757] shadow-[#5368df] max-w-md w-full md:w-[19rem] mx-auto md:mx-0 hover:translate-y-[-5px] ${
         index === 1 ? "md:mt-10" : index === 2 ? "md:mt-20" : ""
       }`}
     >

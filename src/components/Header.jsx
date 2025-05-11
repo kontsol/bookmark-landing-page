@@ -25,7 +25,7 @@ const Header = () => {
   }, []);
 
   return (
-    <header className="paddingX pt-10 flexBetween w-full relative z-100">
+    <header className="header paddingX pt-10 flexBetween w-full relative z-100 section-wrapper">
       <img src={logo} alt="header logo" className="cursor-pointer" />
       <div className="hidden md:flex items-center md:gap-8 xl:gap-15">
         <ul className="flex gap-8 md:gap-8 xl:gap-15">
@@ -60,7 +60,7 @@ const Header = () => {
             <ul className="  flexCenter flex-col w-full">
               {HEADER.map((item, index) => (
                 <li
-                  className={`w-full py-8 text-center  heading-md-400 ${item.class} text-white hover:text-[#ff4c4c]`}
+                  className={`w-full py-8 text-center heading-sm-500 ${item.class} text-white hover:text-[#ff4c4c]`}
                   key={index}
                 >
                   {item.text}

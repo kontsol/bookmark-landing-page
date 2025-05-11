@@ -9,7 +9,7 @@ const Features = () => {
     setActiveTab(index);
   };
   return (
-    <div className="block-gap paddingY">
+    <div className="features block-gap paddingY section-wrapper">
       <div className="flex flex-col items-center content-gap">
         <h1 className="heading-md-500">Features</h1>
         <p className="text-body textMaxWidth text-center">
@@ -20,13 +20,13 @@ const Features = () => {
       </div>
 
       {/* Tabs */}
-      <div className="px-15 md:px-0 flex flex-col md:flex-row justify-center mx-auto max-w-[600px]">
+      <div className="px-15 md:px-0 flex flex-col md:flex-row justify-between mx-auto max-w-[800px]">
         {TAB_DATA.map((item, index) => {
           return (
             <button
               key={index}
               onClick={() => handleClick(index)}
-              className={`flex-1 paddingY border-b-2 md:border-b-3 border-b-[#b7b7b7] relative heading-sm-500 hover:text-[#fa5757] ${
+              className={`flex-1 paddingY border-b-2 md:border-b-3 border-b-[#b7b7b7] relative heading-sm-400 hover:text-[#fa5757] ${
                 activeTab === index ? "border-b-[#fa5757] text-[#fa5757]" : ""
               } `}
             >
