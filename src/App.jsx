@@ -5,6 +5,7 @@ import Features from "./components/Features";
 import Extension from "./components/Extension";
 import FAQ from "./components/FAQ";
 import Newsletter from "./components/Newsletter";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Extension />
       <FAQ />
       <Newsletter />
+      <Footer />
     </section>
   );
 }
