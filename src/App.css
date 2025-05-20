@@ -75,5 +75,9 @@ body {
 }
 
 img {
-  @apply object-cover max-w-full h-auto;
+  @apply object-cover max-w-full h-auto cursor-pointer;
+}
+
+.social-icon {
+  @apply w-8 h-8;
 }

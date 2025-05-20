@@ -1,29 +1,30 @@
-import logo from "../assets/images/logo-bookmark.svg";
+import logo from "../assets/images/logo-bookmark-white.svg";
 import { HEADER, SOCIALS } from "../Global";
 
 const Footer = () => {
   return (
     <footer className="bg-[#252b46] w-full">
-      <div className="section-wrapper paddingY flex justify-between">
-        <div className="flex content-gap">
-          <img className="bg-red-400" src={logo} alt="logo" />
-          <ul className="flex content-gap items-center  ">
+      <div className="section-wrapper paddingY flex flex-col md:flex-row justify-between items-center">
+        <div className="flex flex-col md:flex-row gap-15 w-full items-center">
+          <img className="" src={logo} alt="logo" />
+          <ul className="flex gap-15 items-center  ">
             {HEADER.map((item, index) => (
-              <li className="text-[#f7f7f7] heading-xs-400" key={index}>
+              <li
+                className="text-[#f7f7f7] heading-sm-400 hover:text-[#fa5757] cursor-pointer"
+                key={index}
+              >
                 {item.text}
               </li>
             ))}
           </ul>
         </div>
-        <div className="">
-          <ul className="flex content-gap">
-            {SOCIALS.map((item, index) => (
-              <li className="border-1 border-lime-400" key={index}>
-                <img src={item.icon} alt={item.alt} />
-              </li>
-            ))}
-          </ul>
-        </div>
+        <ul className="flex gap-15">
+          {SOCIALS.map((item, index) => (
+            <li className="" key={index}>
+              <img src={item.icon} alt={item.alt} className=" social-icon " />
+            </li>
+          ))}
+        </ul>
       </div>
     </footer>
   );

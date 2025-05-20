@@ -21,7 +21,7 @@ const Newsletter = () => {
   console.log(errorMessage);
 
   return (
-    <div className="paddingY bg-[#5368df]">
+    <div className="newsletter paddingY bg-[#5368df]">
       <div className=" section-wrapper py-15 flex flex-col items-center justify-center content-gap">
         <h1 className="text-[#f7f7f7] heading-sm-500 tracking-[0.5rem]">
           35,000+ ALREADY JOINED
