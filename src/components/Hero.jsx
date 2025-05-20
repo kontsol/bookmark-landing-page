@@ -10,7 +10,7 @@ const Hero = () => {
           A Simple Bookmark Manager
         </h1>
         <p className="text-body text-[#252b46] textMaxWidth">
-          A clean and simple interface to organize your favourite websites. Open
+          A clean and simple interface to organize your favorite websites. Open
           a new browser tab and see your sites load instantly. Try it for free.
         </p>
         <div className="flex gap-4">

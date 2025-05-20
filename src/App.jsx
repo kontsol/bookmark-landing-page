@@ -9,7 +9,7 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <section className="">
+    <section className="overflow-hidden">
       <Header />
       <Hero />
       <Features />
