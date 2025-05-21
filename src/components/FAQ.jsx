@@ -30,7 +30,10 @@ const FAQ = () => {
               <div
                 className={`${item.class} w-full flex justify-between paddingY border-b-1 border-b-[#b7b7b7]`}
               >
-                <h1 className="hover:text-[#fa5757] cursor-pointer heading-sm-400">
+                <h1
+                  className="hover:text-[#fa5757] cursor-pointer heading-sm-400"
+                  onClick={() => toggleFAQ(index)}
+                >
                   {item.question}
                 </h1>
                 <button
